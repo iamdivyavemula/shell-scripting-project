@@ -47,6 +47,8 @@ if[$# -ne $expected_cmd_args]; then
 echo "please execute the script with required command args"
 }
 
+helper()
+
 # Main script
 
 echo "Listing users with read access to ${REPO_OWNER}/${REPO_NAME}..."
